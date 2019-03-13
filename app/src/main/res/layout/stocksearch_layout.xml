@@ -12,6 +12,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Search stocks..."
-        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="41dp" />
 </android.support.constraint.ConstraintLayout>
