@@ -56,15 +56,6 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
     }
 
 
@@ -137,19 +128,19 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            Fragment fragment = null;
+            Fragment frag = null;
             switch (position) {
                 case 0:
-                    fragment = new Home();
+                    frag = new Home();
                     break;
                 case 1:
-                    fragment = new StockSearch();
+                    frag = new StockSearch();
                     break;
                 case 2:
-                    fragment = new CryptoSearch();
+                    frag = new CryptoSearch();
                     break;
             }
-            return fragment;
+            return frag;
         }
 
         @Override

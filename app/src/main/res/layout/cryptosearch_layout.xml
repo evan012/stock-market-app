@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Search Crypto..."
+        android:text="Search Cryptocurrency..."
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="28dp" />
 </android.support.constraint.ConstraintLayout>
